@@ -1,0 +1,39 @@
+{
+  "name": "datalist-option-wrapper",
+  "version": "1.0.0",
+  "description": "input要素とdatalist要素による入力候補の操作において面倒な部分を少し楽にするやつ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && babel-node --ignore '' test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/datalist-option-wrapper.git"
+  },
+  "keywords": [
+    "input",
+    "datalist",
+    "option",
+    "candidate"
+  ],
+  "author": "honeo",
+  "license": "MIT",
+  "dependencies": {
+    "has-same-contents": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "jsdom": "^8.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/honeo/datalist-option-wrapper/issues"
+  },
+  "homepage": "https://github.com/honeo/datalist-option-wrapper#readme",
+  "directories": {
+    "test": "test"
+  }
+}
