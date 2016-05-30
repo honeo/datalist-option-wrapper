@@ -1,10 +1,10 @@
 {
   "name": "datalist-option-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "input要素とdatalist要素による入力候補の操作において面倒な部分を少し楽にするやつ",
   "main": "index.js",
   "scripts": {
-    "test": "cd test && babel-node --ignore '' test.js"
+    "test": "cd test && babel-node test.js --ignore '' --presets es2015,stage-0"
   },
   "repository": {
     "type": "git",
